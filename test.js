@@ -1,7 +1,7 @@
 
 /* global require */
 
-var bf = require('lib/bruteforce.js');
+var bf = require('./lib/bruteforce.js');
 
 var should = require('should');
 
