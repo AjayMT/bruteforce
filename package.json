@@ -1,0 +1,20 @@
+
+{
+  "name": "bruteforce",
+  "version": "0.0.1",
+  "description": "generate every possible permutation of characters",
+  "devDependencies": {
+    "should": "4.1.0"
+  },
+  "main": "lib/bruteforce.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "Ajay MT <ajay.tatachar@gmail.com> (http://ajaymt.github.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/AjayMT/bruteforce.git"
+  },
+  "keywords": ["utility", "brute", "force", "bruteforce", "permutation"]
+}
