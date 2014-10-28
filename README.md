@@ -1,5 +1,7 @@
 
 # bruteforce
+[![Build Status](https://travis-ci.org/AjayMT/bruteforce.svg)](https://travis-ci.org/AjayMT/bruteforce)
+
 Generate all possible character permutations.
 
 Example:
