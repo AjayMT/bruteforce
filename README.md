@@ -38,6 +38,7 @@ $ npm install --save bruteforce
 Return a list of character permutations. `params` is an object with the following keys:
 - `len`: maximum length of the permutations
 - `chars`: list of characters to use
+- `filterSimilarChars`: filter out permutations in which the same character appears consecutively (see #1)
 - `prefix` (optional): a prefix that is added to all the permutations. This is a part of the length of each permutation, so it must be less than or equal to `len`.
 - `step` (optional): a function to call every time a permuation is generated. It is called with one parameter: the permutation that was generated
 - `end` (optional): a function to call after all permutations have been generated. It is called with one argument: the list of all permutations that were generated, which will also be returned
